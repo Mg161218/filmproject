@@ -1,0 +1,21 @@
+/* root özelleştime */
+:root{
+ --color-primary: rgb(50,120,70,0.5);
+--color-primary-dark: rgb(10,70,30); 
+--color-secondary: rgb(60,60,190);
+--color-error: rgb(210,40,40);
+--color-success: rgb(90,150,40);
+--border-radius: 5px;
+
+
+
+}
+body{
+background: linear-gradient(to right ,var(--color-primary),var,(--color-primary-dark)),url(yazılım resmi.jpg);
+background-attachment: fixed;
+background-size:cover ;
+margin: 0;
+height: 100vh;
+
+}
+.container{}
